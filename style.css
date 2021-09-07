@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ header div{
+     display: inline-block;
+ }
+ header div input{
+     width: 20px;
+     height: 20px;
+     margin-top: 20px;
+ }
+ header{
+     margin-bottom: 50px;
+ }
+
+ #left-top{
+    padding:20px; 
+ }
+ #right-top{
+     float: right;
+     padding: 10px;
+     display: flex;   
+ }
+
+ .head{
+     margin:5px;
+ }
+ #center-logo{
+    width: fit-content;
+    height: auto;
+    margin: auto;
+ }
+
+ #search-box{
+     padding-left: 30px;
+     display: flex;
+     justify-content: center;
+     width: 400px;
+     height: 40px;
+     border-radius: 30px;
+     margin: auto;
+     padding-inline-end: 44px;
+     padding-inline-start: 52px;   
+ }
+ #search{
+    position: relative;
+    width: 500px;
+    margin: auto;
+}
+
+ #search input{
+     display: inline-block;
+     width: 100%;
+ }
+ .search-image{
+     
+     position: absolute;
+     top: 7px;
+
+ }
+ #voice-image{
+     right:10px;
+     width: 50px;
+     height: auto;
+
+ }
+
+ #search-btn{
+     width: 30px;
+     height: auto;
+     left:11px;
+ }
+
+ #buttons{
+     width: 30%;
+     margin: auto;
+     margin-top: 20px;   
+ }
+ .button{
+     width: 45%;
+     margin:auto;
+ }
+ #btn-2{
+     float: right;
+     height: 30px;
+ }
+ #btn-1{
+     height: 30px;
+ }
+
+ #language{
+     text-align: center;
+     margin-top: 20px;
+ }
+ #footer{
+     position: absolute;
+     width: 100%;
+     bottom: 5px;
+     padding: 5px 15px;
+ }
+ #footer1{
+     padding-left: 5px;
+ }
+ #footer2-left{
+     display: inline-block;
+ }
+
+ #footer2-right{
+     float: right;
+ }
+
+ .footer-element{
+     padding: 5px;
+ }
